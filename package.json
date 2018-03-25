@@ -1,0 +1,30 @@
+{
+  "name": "local-storage-objects",
+  "version": "1.0.0",
+  "description": "local storage setter getter",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipostol/local-storage-objects.git"
+  },
+  "keywords": [
+    "local",
+    "storage",
+    "objects"
+  ],
+  "author": "Postol Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipostol/local-storage-objects/issues"
+  },
+  "homepage": "https://github.com/ipostol/local-storage-objects#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
