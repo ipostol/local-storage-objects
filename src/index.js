@@ -10,7 +10,7 @@ const LS = {
       return item;
     }
 
-  }
+  },
 
   setItem(key, value) {
 
@@ -25,16 +25,16 @@ const LS = {
       return false;
     }
 
-  }
+  },
 
   clearKey(key) {
     return localStorage.setItem(key, undefined);
-  }
+  },
 
   clear() {
     return localStorage.clear();
-  }
+  },
 
-}
+};
 
 export default LS;
