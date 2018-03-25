@@ -1,6 +1,6 @@
 {
   "name": "local-storage-objects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "local storage setter getter",
   "main": "lib/index.js",
   "scripts": {
