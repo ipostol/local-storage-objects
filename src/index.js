@@ -1,8 +1,8 @@
 const LS = {
 
-  getItem(key) {
+  getItem(key, defaultValue) {
 
-    const item = localStorage.getItem(key);
+    const item = localStorage.getItem(key) || defaultValue;
 
     try {
       return JSON.parse(item);
